@@ -1,0 +1,143 @@
+   /*
+*
+*map------------------>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+* 
+ */
+    
+    .sit_wrapper {
+        width: 100%;
+        height: 650px;
+        margin-top: 30px;
+    }
+    
+    .floor {
+        width: 1000px;
+        margin: 0 auto;
+        height: 50px;
+        color: #03a4e5;
+    }
+    
+    .floor p {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+        border-bottom: 1px dotted #7abfe7;
+    }
+    
+    .sit_content {
+        width: 1000px;
+        height: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        background: url('../../images/mapBj.jpg') no-repeat 0px 0px;
+        background-color: transparent;
+    }
+    
+    .sit_co {
+        margin: 60px auto;
+    }
+    
+    .situation {
+        float: left;
+        width: 30%;
+        height: 300px;
+        position: relative;
+        left: 50px;
+        top: 60px;
+    }
+    
+    .sitWrapper {
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    .situation h2 {
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #51c1ee;
+        color: #fff;
+        height: 46px;
+        line-height: 46px;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-top: 2px solid #022431;
+    }
+    
+    .sitBj_1 {
+        position: absolute;
+        top: -15px;
+        height: 15px;
+        width: 95%;
+        background: #033d54;
+        border-radius: 30px;
+        border: 10px solid #0483b6;
+    }
+    
+    .sitWrapper ul {
+        background: #fff;
+        height: 285px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .sitWrapper ul li {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .sitWrapper ul a {
+        color: #999;
+        font-size: 12px;
+    }
+    
+    .sitWrapper ul a span {
+        color: #333;
+        font-size: 16px;
+    }
+    
+    .sitWrapper ul a span[name='cityname'] {
+        color: #666;
+        font-size: 14px;
+    }
+    
+    .sitWrapper ul li a.label-success {
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 30px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: #fdaa1d;
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .sitWrapper ul li a.label-success:hover {
+        background-color: #db9215;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    
+    .sitWrapper ul li a span[id*='jksl'],
+    .sitWrapper ul li a span[id*='qj'],
+    .sitWrapper ul li a span[id*='xxsl'] {
+        color: #fdaa1d;
+        font-size: 16px;
+        vertical-align: middle;
+        font-weight: bold;
+        font-family: arial;
+    }
+    
+    .mapWrapper {
+        width: 700px;
+        height: 500px;
+        position: relative;
+        left: 100px;
+        overflow: hidden;
+    }

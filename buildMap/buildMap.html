@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="河南护校安园管理平台" />
+    <meta name="copyright" content="河南护校安园管理平台" />
+    <meta name="keywords" content="河南护校安园管理平台" />
+    <meta name="description" content="河南护校安园管理平台" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui" />
+    <title>河南护校安园管理平台——建设情况</title>
+    <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../mainCss/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/buildMap.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!--content-->
+        <div class="header_wrapper">
+            <div class="header">
+                <div class="header_content clearFix">
+                    <i class="iconfont icon-zhuye"></i>
+                    <p>主办：河南护校安园管理平台</p>
+                    <div class="topLogin">
+                        <a href="javascript:;"><i class="iconfont icon-qq" ></i></a>
+                        <a href="javascript:;"><i class="iconfont icon-weixin" ></i></a>
+                        <a href="javascript:;"><i class="iconfont icon-youjian" ></i></a>
+                        <a href="javascript:;"><i class="iconfont icon-weibo" ></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--logo-->
+            <div class="logo_content">
+                <div class="logo">
+                    <img src="../images/logo.jpg" />
+                </div>
+            </div>
+            <!--nav-->
+            <div class="nav_wrapper">
+                <div id="menu_nav">
+                    <ul class="clearFix">
+                        <li><a href="../index.html" class="home" target="_blank">首页</a></li>
+                        <li><a href="../news/news.html" target="_blank">校安资讯</a></li>
+                        <li><a href="../HotSpotMonitor/HotSpotMonitor.html" target="_blank">热点监控</a></li>
+                        <li><a href="../compusOnline/compusOnline.html" target="_blank">校园在线</a></li>
+                        <li><a href="../crisisManage/crisisManage.html" target="_blank">危机处理</a></li>
+                        <li><a href="../safetyEducation/safetyEducation.html" target="_blank">安全教育</a></li>
+                         <li><a href="javascript:;" target="_blank" class="buildMap naveHover">建设情况</a></li>
+                        <li style="float:right"><a href="../login/login.html" target="_blank"><i class="iconfont icon-iconfontdenglucopy icon-nav"></i>登录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--nav  ok-->
+     <!-- map -->
+            <div class="sit_wrapper ">
+                <div class="floor">
+                    <p>建设情况</p>
+                </div>
+                <div class="sit_content">
+                    <div class="sit_co clearFix">
+                        <div class="situation">
+                            <div class="sitBj">
+                            </div>
+                            <div class="sitBj_1">
+                            </div>
+                            <div class="sitWrapper">
+                                <h2>建设情况</h2>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span>【 学校数量 】 </span>
+                                        </a>
+                                    </li>
+                                    <li class="break">
+                                        <a href="javascript:;"> &nbsp; 
+                                    <span name="cityname">河南</span> 
+                                    共有中小学 
+                                    <span id="xxsl">1000</span> 
+                                    所
+                                    </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span>【 监控点数量 】 </span>
+                                        </a>
+                                    </li>
+                                    <li class="break">
+                                        <a href="javascript:;"> &nbsp; 
+                                        <span name="cityname">河南</span>
+                                    中小学共部署监控点 
+                                        <span id="jksl">2000</span>
+                                    个
+                                    </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span>【 个数 】 </span>
+                                        </a>
+                                    </li>
+                                    <li class="break">
+                                        <a href="javascript:;"> &nbsp; 
+                                    <span name="cityname">河南</span> 
+                                    共计 球机 
+                                    <span id="qj">3000</span>
+                                     个，枪机 
+                                     <span id="qj1">3000</span> 
+                                     个
+                                 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mapWrapper" style="float:right">
+                            <iframe id="frame_content" name="frame_content" class="embed-responsive-item " width="100%" src="map.html" scrolling="no" frameborder="0" onload="javascript:this.height=550;"></iframe>
+                            <script type="text/javascript">
+                            function reinitIframe() {
+                                var iframe = document.getElementById("frame_content");
+                                try {
+                                    var bHeight = iframe.contentWindow.document.body.scrollHeight;
+                                    var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+                                    var height = Math.max(bHeight, dHeight);
+                                    iframe.height = height;
+                                    //                            iframe.width=$("#content").css("width");
+                                    var par = $("#content");
+                                    if (par) {
+                                        var oStyle = par.currentStyle ? par.currentStyle : window.getComputedStyle(par, null);
+                                        if (oStyle.getPropertyValue) {
+                                            iframe.width = oStyle.getPropertyValue("width");
+                                            console.log("getPropertyValue下背景色：" + oStyle.getPropertyValue("width"));
+                                        } else {
+                                            iframe.width = oStyle.getAttribute("width");
+                                            console.log("getAttribute下背景色：" + oStyle.getAttribute("width"));
+                                        }
+                                    }
+                                } catch (ex) {}
+                            }
+                            window.setTimeout("reinitIframe()", 200);
+
+                            function changeData(city) {
+                                $.getJSON("js/ptjsqk.json", city, function(data) {
+                                    var tempdata = data[city];
+                                    $("#xxsl").html(tempdata.school);
+                                    $("#jksl").html(tempdata.jksl);
+                                    $("#qj").html(tempdata.qj);
+                                    $("#qj1").html(tempdata.qj1);
+                                    $("[name='cityname']").html(city);
+                                });
+                            }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- map  ok -->
+           
+        </div>
+        <!--content ok-->
+        <!--footer-->
+        <div class="foot">
+            ©2016 河南护校安园管理平台 &nbsp;| &nbsp;<a href="javascript:;">联系我们</a> &nbsp;| &nbsp;<a href="javascript:;">关于我们</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="../mainJs/jquery-1.11.3.min.js"></script>
+</body>
+
+</html>

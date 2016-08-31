@@ -1,0 +1,145 @@
+
+ 
+ div.title i.icon_floor {
+     display: inline-block;
+     width: 45px;
+     height: 35px;
+     background: url('../../images/fllor.png') no-repeat;
+     vertical-align: text-bottom;
+ }
+  div.title i.icon_floor:hover{
+  	background: url('../../images/fllor_hover.png') no-repeat;
+  	 transition: 0.5s ease;
+     -webkit-transition: 0.5s ease;
+     -moz-transition: 0.5s ease;
+     -o-transition: 0.5s ease;
+  }
+ .marTop20 {
+     margin-top: 20px;
+ }
+ 
+ .marTop30 {
+     margin-top: 30px;
+ }
+ .border1 {
+     width: 1100px;
+     height: 1px;
+     border-top: 1px dotted #03a4e5;
+     margin:0 auto;
+ }
+ div.title {
+     height: 45px;
+     line-height: 45px;
+     overflow: hidden;
+ }
+
+ span.floor {
+     color: #03a4e5;
+     font-size: 20px;
+     font-weight: bold;
+     letter-spacing: 1px;
+     line-height: 45px;
+     vertical-align: text-bottom;
+     padding-right: 50px;
+ }
+ 
+ div.title a {
+     color: #666;
+     font-size: 16px;
+     line-height: 45px;
+     padding: 10px 18px;
+     vertical-align: text-bottom;
+     position: relative;
+     top: 2px;
+ }
+ 
+ div.title a:hover {
+     background: #03a4e5;
+     color: #fff;
+     transition: 0.5s ease;
+     -webkit-transition: 0.5s ease;
+     -moz-transition: 0.5s ease;
+     -o-transition: 0.5s ease;
+ }
+ 
+ .educontent {
+     width: 1100px;
+     height: 325px;
+     overflow: hidden;
+     margin: 20px auto 0px;
+ }
+ 
+ .educontent ul li {
+     float: left;
+     display: inline;
+     margin-right: 20px;
+     overflow: hidden;
+     width: 320px;
+     height: 325px;
+     background: #f2f2f2;
+ }
+ 
+ .educontent ul li img {
+     width: 320px;
+ }
+ 
+ .educontent ul li:last-child {
+     margin-right: 0px;
+ }
+ 
+ .educontent ul li a .img_item {
+     height: 250px;
+     overflow: hidden;
+ }
+ 
+ .educontent ul li a .text {
+     padding: 0px 15px;
+ }
+ 
+ .educontent ul li a .text p {
+     font-size: 12px;
+     color: #666;
+ }
+ 
+ .educontent ul li a .text p.title {
+     font-size: 14px;
+     color: #333;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+ 
+
+ /**
+ * Social security----------------------
+ */
+ 
+ .social,
+ .injury,
+ .disaster {
+     width: 1000px;
+     margin: 0 auto;
+     overflow: hidden;
+ }
+ /**
+ * Social security------------------ok
+ */
+
+
+/**
+ *
+ * tab  显示隐藏
+ */
+.hide{
+    display:none;
+}
+.selected{
+    display: block;
+}
+.tabSelected{
+    background:#03a4e5;
+    color:#fff!important;
+    transition: 0.5s ease;
+     -webkit-transition: 0.5s ease;
+     -moz-transition: 0.5s ease;
+     -o-transition: 0.5s ease;
+}

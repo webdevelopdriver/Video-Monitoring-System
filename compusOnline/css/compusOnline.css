@@ -1,0 +1,219 @@
+/**
+ *
+ *HotSpotMonitor和compusOnline共用的css 
+ *
+ */
+
+.tableContainer {
+    width: 1000px;
+    margin: 20px auto 0px;
+}
+
+.menuTa {
+    float: left;
+    width: 20%;
+}
+
+.menuTa ul.one {
+    overflow: hidden;
+}
+
+.menuTa ul.one li.one_level {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.menuTa ul.one li.one_level>a {
+    font-size: 14px;
+    color: #fff;
+    background: #096faa;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+
+.menuTa ul.one li i.add {
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.menuTa ul.one li.one_level>a:hover {
+    background-color: #0c83c7;
+    // border-bottom: 2px solid #096faa;
+    transition: 0.1s ease;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+}
+
+.menuTa ul.one li.one_level ul {
+    padding: 0px;
+    overflow: hidden;
+    border: 1px solid #0c83c7;
+    boder-top: 0px;
+}
+
+.menuTa ul.one li.one_level ul li>a {
+    display: block;
+    color: #096faa;
+    padding: 10px;
+    padding-left: 40px;
+    background: #eaf7fd;
+    cursor: pointer;
+    border-bottom: 1px solid #bdd5e2;
+}
+
+.menuTa ul.one li.one_level ul li:hover>a {
+    background: #afe1f6;
+}
+
+.ta {
+    float: right;
+    width: 77%;
+}
+
+.ta p {
+    font-size: 12px;
+    color: #096faa;
+    height: 38px;
+    line-height: 38px;
+    background: #afe1f6;
+    padding-left: 10px;
+}
+
+.ta .title p {
+    font-size: 24px;
+    color: #333;
+    background: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ta .title p i.title_icon {
+    margin: 0 5px;
+    font-size: 30px;
+    color: #03a4e5;
+}
+
+.ta table {
+    color: #333;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ta table,
+th,
+td {
+    border: 1px solid #086397;
+}
+
+.ta table th {
+    background: #096faa;
+    line-height: 38px;
+    color: #fff;
+}
+
+.ta table td {
+    width: 25%;
+    line-height: 46px;
+    color: #096faa;
+}
+
+.ta table td.fir {
+    width: 10%;
+}
+
+.ta table td.las {
+    width: 15%;
+}
+
+.ta table td.data {
+    width: 40%;
+}
+
+.ta table td.dataWarn {
+    color: #df5959;
+}
+
+.even {
+    background: #caeaf7;
+}
+
+.odd {
+    background: #fff;
+}
+
+.trEvenHover {
+    background: #dfdfdf;
+}
+
+.trOddHover {
+    background: #92d3ee;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+
+/*page*/
+
+#page {
+    padding: 0 0 0 50px;
+    margin: 30px auto 40px;
+    font: 14px arial;
+    white-space: nowrap;
+}
+
+#page a {
+    cursor: pointer;
+}
+
+#page a,
+#page strong {
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 36px;
+    text-align: center;
+    line-height: 34px;
+    text-decoration: none;
+    overflow: hidden;
+    margin-right: 9px;
+    background: #fff;
+}
+
+#page .fk {
+    width: 24px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+#page span {
+    display: block;
+}
+
+#page .pc {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #e1e2e3;
+    cursor: pointer;
+}
+
+#page .n {
+    height: 34px;
+    padding: 0 18px;
+    border: 1px solid #e1e2e3;
+}
+
+#page .n:hover,
+#page a:hover .pc {
+    background: #f2f8ff;
+    border: 1px solid #38f;
+}

@@ -1,0 +1,178 @@
+ .loginWrapper {
+     width: 100%;
+     background: #ecfbff;
+     border-top: 1px solid #90d3e5;
+ }
+ 
+ .wrapper_register {
+     position: relative;
+     width: 1000px;
+     height: 450px;
+     margin: 0 auto;
+     overflow: hidden;
+ }
+ 
+ .wrapper_register img {
+     float: left;
+     width: 443px;
+     height: 400px;
+     position: relative;
+     top: 25px;
+     left: 50px;
+ }
+ 
+ .wrapper_register .register {
+     float: right;
+     position: relative;
+     width: 350px;
+     margin-top: 50px;
+     height: 350px;
+     border: 1px solid #e7e7e7;
+     border-radius: 10px;
+     background-color: #fff;
+ }
+ 
+ .register .header {
+     width: 350px;
+     height: 40px;
+     background-color: #03a4e5;
+     color: #fff;
+     font-size: 16px;
+     line-height: 40px;
+     text-align: center;
+     letter-spacing: 2px;
+     font-weight: bold;
+     border-bottom: 1px solid #076d97;
+     border-radius: 3px;
+ }
+ 
+ form {
+     width: 255px;
+     height: 200px;
+     margin: 50px auto;
+ }
+ 
+ form label {
+     display: inline-block;
+ }
+ 
+ form input {
+     margin: 6px 0px 0px 7px;
+     width: 170px;
+     border: 0;
+     outline: none;
+     background: transparent;
+ }
+ 
+ form .autoregist {
+     height: 30px;
+ }
+ 
+ form #autoregist {
+     cursor: pointer;
+     margin: 0;
+     width: 15px;
+     height: 15px;
+ }
+ 
+ form label {
+     cursor: pointer;
+     display: inline-block;
+     height: 30px;
+     line-height: 30px;
+     margin-left: 5px;
+ }
+ 
+ form label.userName {
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-size: 14px;
+     color: #999;
+     cursor: text;
+
+ }
+ 
+ form a {
+     display: inline-block;
+     height: 30px;
+     line-height: 30px;
+     float: right;
+     color: #333;
+     text-decoration: none;
+ }
+ 
+ form a:hover {
+     color: #dd681c;
+ }
+ 
+ form .login,
+ .login_1 {
+     margin: 0;
+     width: 110px;
+     height: 30px;
+     background-color: #03a4e5;
+     color: #fff;
+     font-size: 14px;
+     letter-spacing: 4px;
+     margin: 10px 5px 24px 0;
+     -moz-border-radius: 8px;
+     -webkit-border-radius: 8px;
+     border-radius: 8px;
+     -moz-box-shadow: 0px 2px 1px #08678d;
+     -webkit-box-shadow: 0px 2px 1px #08678d;
+     box-shadow: 0px 2px 1px #08678d;
+     border-bottom: 1px solid #047aa9;
+     cursor: pointer;
+     behavior: url(../../mainCss/PIE.htc);
+ }
+ 
+ form .login:hover,
+ .login_1:hover {
+     background-color: #0786b9;
+     border-bottom: none;
+ }
+ 
+ form .login_1 {
+     float: right;
+ }
+ 
+ form span {
+     font-size: 14px;
+     color: #333;
+ }
+ 
+ form div {
+     margin-top: 20px;
+ }
+ 
+ form #user .user_1,
+ form #password .password_1 {
+     position: relative;
+     display: inline-block;
+     width: 186px;
+     height: 30px;
+     border: 1px solid #c5c5c5;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+     border-radius: 4px;
+     behavior: url(../../mainCss/PIE.htc);
+     z-index: 99999;
+ }
+ 
+ form #password .password_2 {
+     margin-right: 1em;
+ }
+ /**
+     *
+     * ie
+     */
+ 
+ form #user .user_1,
+ form #password .password_1,
+ form .login,
+ .login_1 {}
+ 
+ .foot {
+     background: #fff;
+ }

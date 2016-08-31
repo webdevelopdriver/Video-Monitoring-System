@@ -1,0 +1,410 @@
+   /*
+*
+*carousel----------------------------->>>>>>>>>>>>>>>>>>>>>
+* 
+ */
+   
+   .slideBox {
+       width: 1000px;
+       height: 300px;
+       margin: 0 auto;
+       overflow: hidden;
+       position: relative;
+   }
+   
+   .slideBox .hd {
+       height: 16px;
+       overflow: hidden;
+       position: absolute;
+       right: 50%;
+       bottom: 8px;
+       z-index: 1;
+   }
+   
+   .slideBox .hd ul {
+       overflow: hidden;
+       zoom: 1;
+       float: left;
+   }
+   
+   .slideBox .hd ul li {
+       float: left;
+       margin-right: 5px;
+       width: 14px;
+       height: 14px;
+       line-height: 14px;
+       text-align: center;
+       cursor: pointer;
+       background: url('../images/banner_dot.png') no-repeat -23px 0;
+   }
+   
+   .slideBox .hd ul li.on {
+       background: url('../images/banner_dot.png') no-repeat 0 0;
+   }
+   
+   .slideBox .bd {
+       position: relative;
+       height: 100%;
+       z-index: 0;
+       overflow: hidden;
+   }
+   
+   .slideBox .bd li {
+       zoom: 1;
+       vertical-align: middle;
+   }
+   
+   .slideBox .bd img {
+       display: block;
+       margin: 0 auto;
+   }
+   /* 下面是前/后按钮代码，如果不需要删除即可 */
+   
+   .slideBox .prev,
+   .slideBox .next {
+       position: absolute;
+       left: 3%;
+       top: 50%;
+       margin-top: -25px;
+       display: block;
+       width: 32px;
+       height: 40px;
+       background: url('../images/slider-arrow.png') -110px 5px no-repeat;
+       filter: alpha(opacity=50);
+       opacity: 0.5;
+   }
+   
+   .slideBox .next {
+       left: auto;
+       right: 3%;
+       background-position: 8px 5px;
+   }
+   
+   .slideBox .prev:hover,
+   .slideBox .next:hover {
+       filter: alpha(opacity=100);
+       opacity: 1;
+   }
+   
+   .slideBox .prevStop {
+       display: none;
+   }
+   
+   .slideBox .nextStop {
+       display: none;
+   }
+   /**
+  *carousel ------------------------------------ok
+
+  * 
+  */
+   /**
+    *推荐楼层
+    * 
+    */
+   
+   .pushList {
+       width: 1000px;
+       margin: 0 auto;
+   }
+   
+   .listWrapper {
+       margin-top: 40px;
+   }
+   
+   .listWrapper .title {
+       padding-top: 20px;
+       border-top: #096faa 2px solid;
+       height: 34px;
+       line-height: 34px;
+       overflow: hidden;
+       vertical-align: text-bottom;
+   }
+   
+   .listWrapper .title .icon_floor {
+       display: inline-block;
+       width: 34px;
+       height: 34px;
+       background: #03a4e5;
+       vertical-align: text-bottom;
+       color: #fff;
+       font-size: 16px;
+       text-align: center;
+       border-radius: 17px;
+   }
+   
+   .listWrapper .title h2.floor {
+       display: inline-block;
+       color: #03a4e5;
+       letter-spacing: 1px;
+       line-height: 34px;
+       vertical-align: text-bottom;
+       padding: 0 20px;
+       font-size: 28px;
+       font-weight: 400;
+   }
+   
+   .more {
+       display: inline-block;
+       color: #03a4e5;
+       padding: 0 10px;
+       float: right;
+   }
+   
+   .more:hover {
+       color: #096faa;
+   }
+   
+   .floorBorder {
+       margin-top: 11px;
+       padding-top: 20px;
+       background: url('../images/index/floorBorder.png') top repeat-x;
+   }
+   
+   .box_left {
+       width: 650px;
+       float: left;
+       margin-right: 20px;
+       overflow: hidden;
+       position: relative;
+   }
+   
+   .box_left ul {
+       float: left;
+   }
+   
+   .box_left ul li.one {
+       width: 230px;
+       overflow: hidden;
+   }
+   
+   .box_left ul li.one .imgBox {
+       width: 230px;
+       height: 148px;
+       overflow: hidden;
+   }
+   
+   .box_left ul li.one .imgBox img {
+       width: 230px;
+   }
+   
+   .textBox .detail {
+       font-size: 12px;
+       padding: 0px 10px;
+   }
+   
+   .box_left ul.sec {
+       width: 400px;
+       margin-left: 20px;
+   }
+   
+   .box_left ul.sec li,
+   .box_right ul li {
+       display: block;
+       height: 33px;
+       border-bottom: #eee 1px solid;
+       width: 98%;
+   }
+   
+   .box_left ul.sec li:last-child,
+   .box_right ul li:last-child {
+       border: 0px;
+   }
+   
+   .box_left ul li a:hover,
+   .box_right ul li a:hover {
+       color: #bf7c09;
+       text-decoration: underline;
+   }
+   
+   .box_left ul li a,
+   .box_right ul li a {
+       color: #096faa;
+       font-size: 14px;
+       line-height: 33px;
+   }
+   
+   .listIcon {
+       display: inline-block;
+       height: 6px;
+       width: 6px;
+       vertical-align: middle;
+       background: url('../images/index/listIcon.jpg') no-repeat;
+       margin-right: 5px;
+   }
+   
+   .box_right {
+       float: left;
+       width: 310px;
+       margin-left: 20px;
+       position: relative;
+       overflow: hidden;
+   }
+   
+   .box_right .headMenu {
+       width: 100%;
+       height: 49px;
+       line-height: 49px;
+       font-size: 16px;
+       text-align: center;
+       border-left: #bdd7f2 1px solid;
+       border-top: #096faa 2px solid;
+       font-family: "Microsoft YaHei";
+       overflow: hidden;
+   }
+   
+   .box_right .menulist {
+       float: left;
+   }
+   
+   .box_right a.tab {
+       float: left;
+       width: 102px;
+       height: 48px;
+       border-bottom: #bdd7f2 1px solid;
+       border-right: #bdd7f2 1px solid;
+       color: #999;
+       text-decoration: none;
+   }
+   
+   .box_right a.hover {
+       float: left;
+       width: 102px;
+       height: 48px;
+       border-bottom: #fff 1px solid;
+       border-right: #bdd7f2 1px solid;
+       color: #b20000;
+       text-decoration: none;
+   }
+   
+   .box_right .more {
+       width: 84px;
+       float: left;
+       height: 42px;
+       padding-top: 6px;
+       font-size: 12px;
+       color: #999;
+       text-align: right;
+       text-decoration: none;
+       border-bottom: #bdd7f2 1px solid;
+   }
+   
+   .box_right .more:hover {
+       color: #096faa;
+       text-decoration: underline;
+   }
+   
+   .box_right ul {
+       padding-top: 12px;
+       line-height: 32px;
+       font-size: 14px;
+       overflow: hidden;
+       width: 100%;
+       overflow: hidden;
+   }
+   
+   .box_right ul li {
+       width: 98%;
+       overflow: hidden;
+   }
+   
+   ul.HotSpot li {
+       float: left;
+       width: 182px;
+       height: 112px;
+       margin-right: 20px;
+       overflow: hidden;
+       border: 1px solid #fff;
+       position: relative;
+   }
+   
+   ul.HotSpot li img {
+       width: 182px;
+       height: 112px;
+   }
+   
+   ul.HotSpot li:last-child {
+       margin-right: 0px;
+   }
+   ul.HotSpot li.HotSpotLast{
+       margin-right: 0px;
+    
+   }
+   ul.HotSpot li:hover {
+       border: 1px solid #03a4e5;
+   }
+   
+   .compusList a {
+       display: inline-block;
+       line-height: 32px;
+       width: 9.85%;
+       background: #e0efff;
+       text-align: center;
+       font-size: 14px;
+       margin-right: 10px;
+       color: #096faa;
+   }
+   
+   .compusList a:hover {
+       background: #03a4e5;
+       color: #fff;
+       transition: 0.5s ease;
+       -webkit-transition: 0.5s ease;
+       -moz-transition: 0.5s ease;
+       -o-transition: 0.5s ease;
+   }
+   
+   .compusList a.nine {
+       margin-right: 0px;
+   }
+   
+   .martop20 {
+       height: 20px;
+   }
+   
+   ul.crisisSec {
+       padding-top: 0px;
+   }
+   
+   ul.crisisSec li {
+       width: 99%;
+   }
+   /**
+    *推荐楼层----------------------------ok
+    * 
+    */
+   /**
+    *iconfont
+    * 
+    */
+   
+   .listWrapper .title .icon-shexiangtou {
+       font-size: 20px;
+   }
+   /**
+     *
+     * ellipsis
+     */
+   
+   .ellipsis {
+       display: block;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       -moz-text-overflow: ellipsis;
+   }
+   /**
+ *
+ *兼容ie
+ * 
+ */
+   
+   .situation h2,
+   .sitBj_1,
+   .sitWrapper ul,
+   .sitShadow,
+   .sitWrapper ul li a.label-success,
+   .listWrapper .title .icon_floor,
+   .listWrapper .listContent ul.news li.menuHot span.menuHotIcon {
+       behavior: url('ie-css3.htc');
+   }

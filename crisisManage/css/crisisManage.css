@@ -1,0 +1,171 @@
+.manage_wrapper {
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.title {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.header_wrapper {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.emmergency {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.emmergency ul li {
+    cursor: pointer;
+}
+
+.emmergency ul li .a_content {
+    margin-top: 20px;
+}
+
+.emmergency ul li .a_content p {
+    font-family: 宋体;
+    font: 14px;
+    line-height: 28px;
+    text-indent: 2em;
+}
+
+.emmergency ul li .a_content p.notes {
+    color: #7abfe7;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.emmerContent,
+.back {
+    width: 780px;
+    float: right;
+    margin-left: 20px;
+}
+
+.emmerContent h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    background: #03a4e5;
+}
+
+.emmergency ul li {
+    padding: 0px 20px;
+    overflow: hidden;
+    color: #333;
+    background-color: #f8f9f4;
+}
+
+.emmergency ul li h3 {
+    text-align: center;
+}
+
+.emmergency ul li strong {
+    color: #666;
+    font-size: 12px;
+}
+
+.emmergency ul li .title i {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #7abfe7;
+    position: relative;
+    margin-right: 6px;
+    top: -3px;
+}
+
+#emmergency ul {
+    position: relative;
+}
+
+#emmergency ul li .item {
+    position: absolute;
+    width: 780px;
+    margin: 0px auto;
+    color: #333;
+}
+
+#emmergency ul li:hover {
+    background: #7abfe7;
+    color: #fff;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.emmerMenu {
+    width: 200px;
+    background: #03a4e5;
+    float: left;
+}
+
+h3.menu {
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    padding: 10px;
+    line-height: 20px;
+    border-bottom: 1px solid #0488be;
+    cursor: pointer;
+}
+
+h3.menu:last-child {
+    border: 0px;
+}
+
+h3.menu:hover {
+    background: #7abfe7;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+/**
+ * icon-font
+ */
+
+.icon-fanhui1 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.back {
+    text-align: center;
+}
+
+.back span {
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #096faa;
+    color: #fff;
+    border-radius: 6px;
+    behavior: url(css/ie-css3.htc);
+}
+
+.back span:hover {
+    background: #7abfe7;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}

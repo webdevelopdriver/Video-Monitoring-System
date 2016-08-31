@@ -1,0 +1,34 @@
+li.two_level>a {
+    font-size: 14px;
+    padding: 10px;
+    padding-left: 40px;
+    border-bottom: 1px solid #0c83c7;
+    border-top: 1px solid #0c83c7;
+}
+
+.one_level a {
+    color: #096faa;
+    display: block;
+    font-size: 12px;
+}
+
+.threeUl {
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 41px;
+    background: #fff;
+}
+
+.threeUl a {
+    padding: 5px;
+    padding-left: 55px;
+    border-bottom: 1px solid #bdd5e2;
+}
+
+.threeUl a:hover {
+    background: #def2fa;
+}
+.ta{
+	height:800px;
+}
